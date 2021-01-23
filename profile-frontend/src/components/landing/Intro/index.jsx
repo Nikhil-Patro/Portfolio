@@ -42,7 +42,7 @@ export const Intro = () => {
           </div>
         </Details>
         <Thumbnail>
-          <img src={heroImage} alt="Crio.Do" />
+          <img src={heroImage} alt="heroImage" />
         </Thumbnail>
       </IntroWrapper>
     </div>

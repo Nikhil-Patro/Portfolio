@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Container } from 'components/common';
 import { name, linkedinUrl, githubUrl } from 'data/config';
 import { ThemeContext } from 'providers/ThemeProvider';
-import crio from 'assets/illustrations/crio.png';
+import powerlogo from 'assets/illustrations/powerlogo.png';
 import linkedinLogo from 'assets/illustrations/linkedin_logo.png';
 import githubLogo from 'assets/illustrations/github_logo.png';
 
@@ -20,13 +20,14 @@ export const Footer = () => {
                 <h2>{name}</h2>
                 <span>© All rights are reserved | {new Date().getFullYear()} </span>
 
-                <div className="powered">
+                
+                {/*<div className="powered">
                   <p>Powered By</p>
-                  <a href="https://www.crio.do" target="_blank" rel="noreferrer">
+                  <a href="" target="_blank" rel="noreferrer">
                     {' '}
-                    <img width="120" src={crio} alt="Crio" />
+                    <img width="120" src={powerlogo} alt="logo" />
                   </a>
-                </div>
+                </div>*/}
               </div>{' '}
               <div>
                 {' '}
